@@ -79,7 +79,8 @@ The system uses **semantic search + LLM reasoning** to provide context-aware res
 
 ```
 rag-ai-assistant/
-│── app.py
+│── Ragui.py
+│──Project_rag.ipynb
 │── requirements.txt
 │── README.md
 │── .gitignore

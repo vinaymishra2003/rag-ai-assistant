@@ -44,15 +44,20 @@ The system uses **semantic search + LLM reasoning** to provide context-aware res
 
 ## 🏗️ RAG Architecture
 
-```mermaid
-graph TD;
-    A[Document Upload] --> B[Text Chunking]
-    B --> C[Embeddings]
-    C --> D[FAISS Vector Store]
-    Q[User Query] --> E[Retriever]
-    D --> E
-    E --> F[LLM (Groq)]
-    F --> G[Final Answer]
+```text
+📄 Document Upload
+        ↓
+✂️ Text Chunking
+        ↓
+🧠 Embeddings Generation
+        ↓
+📦 FAISS Vector Store
+        ↓
+🔍 Retriever (Top-K Search)
+        ↓
+🤖 LLM (Groq)
+        ↓
+💬 Final Answer
 ```
 
 ---

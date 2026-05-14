@@ -93,7 +93,7 @@ rag-ai-assistant/
 ### 🔹 Clone Repository
 
 ```
-git clone https://github.com/YOUR_USERNAME/rag-ai-assistant.git
+git clone https://github.com/vinaymishra2003/rag-ai-assistant.git
 cd rag-ai-assistant
 ```
 
